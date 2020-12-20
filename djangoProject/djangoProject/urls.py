@@ -21,8 +21,8 @@ from django.views.generic.base import TemplateView
 urlpatterns = (
     path('admin/', admin.site.urls),
     # connect with vue homepage
-    #re_path(r'^$', TemplateView.as_view(template_name='index.html')),
-    path('api/', include('core.urls')),
-    #path('goAbroad/', views.goAbroad),
-    #path('sumValue/', views.sumCheck)
+    # re_path(r'^$', TemplateView.as_view(template_name='index.html')),
+    re_path('', TemplateView.as_view(template_name='index.html')),
+    # path('goAbroad/', views.goAbroad),
+    # path('sumValue/', views.sumCheck)
 )
