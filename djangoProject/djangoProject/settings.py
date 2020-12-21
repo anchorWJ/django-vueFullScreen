@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core',
     'rest_framework',
 ]
 
@@ -130,11 +129,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/frontend/dist/static/'
 
 # static file path
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "frontend/dist/static"),
+    os.path.join(BASE_DIR, "../frontend/dist/static"),
 ]
 
 
