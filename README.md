@@ -1,7 +1,7 @@
 # [Django + Vue Full Screen](https://github.com/wsimple1028/django_vue/)
 
 
-https://user-images.githubusercontent.com/34228128/111422457-14158000-8732-11eb-9886-778b6f199992.mp4
+![Mar-17-2021 14-59-07](https://user-images.githubusercontent.com/34228128/111422533-327b7b80-8732-11eb-8564-3e74b9073600.gif)
 
 
 
